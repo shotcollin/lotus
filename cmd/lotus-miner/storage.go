@@ -39,7 +39,7 @@ var storageCmd = &cli.Command{
 	Name:  "storage",
 	Usage: "manage sector storage",
 	Description: `Sectors can be stored across many filesystem paths. These
-commands provide ways to manage the storage the miner will used to store sectors
+commands provide ways to manage the storage the miner will use to store sectors
 long term for proving (references as 'store') as well as how sectors will be
 stored while moving through the sealing pipeline (references as 'seal').`,
 	Subcommands: []*cli.Command{
